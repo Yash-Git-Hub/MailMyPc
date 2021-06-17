@@ -13,7 +13,7 @@ import randfacts
 import cv2
 
 def sendwebcam(q):
-    fromaddr = "Yashlaptop07@gmail.com"
+    fromaddr = #X>YOUR EMAIL ID HERE<X#
     toaddr = q
     
     # instance of MIMEMultipart 
@@ -59,7 +59,7 @@ def sendwebcam(q):
     s.starttls() 
     
     # Authentication 
-    s.login(fromaddr, "Yash7150") 
+    s.login(fromaddr, #X>YOUR PASSWORD<X#) 
     
     # Converts the Multipart msg into a string 
     text = msg.as_string() 
